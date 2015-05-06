@@ -1,0 +1,39 @@
+{
+  "name": "polyboot",
+  "version": "0.0.0",
+  "author": "Ashwin Hegde",
+  "description": "",
+  "contributors": [
+    {
+      "name": "Ashwin Hegde",
+      "email": "ashwin.hegde3@gmail.com"
+    }
+  ],
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/hegdeashwin/polyboot"
+  },
+  "issues": {
+    "url": "http://github.com/hegdeashwin/polyboot/issues?state=open"
+  },
+  "milestones": {
+    "url": "http://github.com/hegdeashwin/polyboot/issues/milestones"
+  },
+  "releases": {
+    "url": "http://github.com/hegdeashwin/polyboot/releases"
+  },
+  "wiki": {
+    "url": "http://github.com/hegdeashwin/polyboot/wiki"
+  },
+  "dependencies": {
+    "hapi": "^8.4.0"
+  },
+  "engines": {
+    "node": ">=0.10"
+  },
+  "licenses": {
+    "type": "MIT",
+    "url": "http://raw.github.com/hegdeashwin/polyboot/master/LICENSE"
+  }
+}
