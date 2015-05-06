@@ -1,0 +1,16 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+
+<polymer-element name="button-el" attributes="role text">
+	<template>
+		<link rel="stylesheet" type="text/css" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="../bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+		
+		<button class="btn btn-{{role}}">{{text}}</button>
+	</template>
+	<script>
+		Polymer({
+			role: "default",
+			text: "Button"
+		});
+	</script>
+</polymer-element>
