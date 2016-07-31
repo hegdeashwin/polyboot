@@ -1,0 +1,23 @@
+<link rel='import' href='../../../../bower_components/polymer/polymer.html' />
+<link rel='import' href='../button-common-style.html' />
+<link rel='import' href='./success-button-style.html' />
+
+<dom-module id='success-button-el'>
+	<template>
+		<style include='button-common-style'></style>
+		<style include='success-button-style'></style>
+		<button class='btn btn-success'>[[text]]</button>
+	</template>
+	<script>
+		Polymer({
+			is: 'success-button-el',
+			properties: {
+				text: {
+					type: String,
+					value: 'Success Button',
+					reflectToAttribute: true
+				}
+			}
+		});
+	</script>
+</dom-module>

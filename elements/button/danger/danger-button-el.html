@@ -1,0 +1,23 @@
+<link rel='import' href='../../../../bower_components/polymer/polymer.html' />
+<link rel='import' href='../button-common-style.html' />
+<link rel='import' href='./danger-button-style.html' />
+
+<dom-module id='danger-button-el'>
+	<template>
+		<style include='button-common-style'></style>
+		<style include='danger-button-style'></style>
+		<button class='btn btn-danger'>[[text]]</button>
+	</template>
+	<script>
+		Polymer({
+			is: 'danger-button-el',
+			properties: {
+				text: {
+					type: String,
+					value: 'Danger Button',
+					reflectToAttribute: true
+				}
+			}
+		});
+	</script>
+</dom-module>

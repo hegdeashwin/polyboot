@@ -1,9 +1,11 @@
-<link rel='import' href='../../../bower_components/polymer/polymer.html' />
-<link rel='import' href='./button-styles.html' />
+<link rel='import' href='../../../../bower_components/polymer/polymer.html' />
+<link rel='import' href='../button-common-style.html' />
+<link rel='import' href='./primary-button-style.html' />
 
 <dom-module id='primary-button-el'>
 	<template>
-		<style include='button-el-styles'></style>
+		<style include='button-common-style'></style>
+		<style include='primary-button-style'></style>
 		<button class='btn btn-primary'>[[text]]</button>
 	</template>
 	<script>
