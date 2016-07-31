@@ -9,7 +9,6 @@
       "email": "ashwin.hegde3@gmail.com"
     }
   ],
-  "main": "server.js",
   "repository": {
     "type": "git",
     "url": "http://github.com/hegdeashwin/polyboot"
@@ -26,11 +25,8 @@
   "wiki": {
     "url": "http://github.com/hegdeashwin/polyboot/wiki"
   },
-  "dependencies": {
-    "hapi": "^8.4.0"
-  },
   "engines": {
-    "node": ">=0.10"
+    "node": ">=5.5.0"
   },
   "licenses": {
     "type": "MIT",
