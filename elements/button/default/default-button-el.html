@@ -1,0 +1,23 @@
+<link rel='import' href='../../../../bower_components/polymer/polymer.html' />
+<link rel='import' href='../button-common-style.html' />
+<link rel='import' href='./default-button-style.html' />
+
+<dom-module id='default-button-el'>
+	<template>
+		<style include='button-common-style'></style>
+		<style include='default-button-style'></style>
+		<button class='btn btn-default'>[[text]]</button>
+	</template>
+	<script>
+		Polymer({
+			is: 'default-button-el',
+			properties: {
+				text: {
+					type: String,
+					value: 'Default Button',
+					reflectToAttribute: true
+				}
+			}
+		});
+	</script>
+</dom-module>
