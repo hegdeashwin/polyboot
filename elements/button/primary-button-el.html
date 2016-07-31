@@ -1,0 +1,21 @@
+<link rel='import' href='../../../bower_components/polymer/polymer.html' />
+<link rel='import' href='./button-styles.html' />
+
+<dom-module id='primary-button-el'>
+	<template>
+		<style include='button-el-styles'></style>
+		<button class='btn btn-primary'>[[text]]</button>
+	</template>
+	<script>
+		Polymer({
+			is: 'primary-button-el',
+			properties: {
+				text: {
+					type: String,
+					value: 'Primary Button',
+					reflectToAttribute: true
+				}
+			}
+		});
+	</script>
+</dom-module>
