@@ -1,8 +1,11 @@
 {
   "name": "polyboot",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "Ashwin Hegde",
-  "description": "",
+  "description": "Bootstrap based polymer library",
+  "scripts": {
+    "start": "http-server"
+  },
   "contributors": [
     {
       "name": "Ashwin Hegde",
